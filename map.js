@@ -1,7 +1,7 @@
 const words = ["ground", "control", "to", "major", "tom"];
 const moreWords = ["keep", "your", "feet", "on", "the", "ground"];
 const numbers = [1,2,3];
-const firstLetterOfString = function (string) {
+const firstLetterOfString = function(string) {
   return string[0];
 };
 
@@ -35,5 +35,5 @@ const assertArraysEqual = function(arr1, arr2) {
 };
 
 assertArraysEqual(map(words, firstLetterOfString), ['g','c','t','m','t']);
-assertArraysEqual(map(numbers, x => x *2), [2,4,6]);
+assertArraysEqual(map(numbers, x => x * 2), [2,4,6]);
 assertArraysEqual(map(moreWords, x => x[0]), ['k','y','f','o','t','g']);
