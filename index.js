@@ -12,16 +12,16 @@ const takeUntil = require('./takeUntil');
 const flatten = require('./flatten');
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  countOnly: countOnly,
-  countLetters: countLetters,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  letterPositions: letterPositions,
-  map: map,
-  reverse: reverse,
-  takeUntil: takeUntil,
-  flatten: flatten
+  head,
+  tail,
+  middle,
+  countOnly,
+  countLetters,
+  findKey,
+  findKeyByValue,
+  letterPositions,
+  map,
+  reverse,
+  takeUntil,
+  flatten
 };
