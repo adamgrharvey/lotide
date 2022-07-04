@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@adamgrharvey/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "This project was created and published by me as part of my learnings at Lighthouse Labs.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/adamgrharvey/lotide.git"
   },
-  "author": "",
+  "author": "adamgrharvey",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/adamgrharvey/lotide/issues"
