@@ -22,8 +22,6 @@ const countOnly = function(allItems, itemsToCount) {
   }
   // return our final counted items
   return countedItems;
-
-
 };
 
 module.exports = countOnly;
